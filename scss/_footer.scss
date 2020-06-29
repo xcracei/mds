@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Comfortaa', cursive;
+    padding: 0.5rem 2rem;
+    P{
+        margin: 0.5rem 0;
+        span.developer{
+            color: $secondary-color;
+        }
+    }
+    div.social-icons{
+        margin: 0 2rem;
+        a{
+            margin: 0 0.8rem;
+        }
+        img:hover {
+            border: 0.2rem solid $secondary-color;
+        }
+    }
+}

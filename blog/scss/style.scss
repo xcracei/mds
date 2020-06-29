@@ -1,0 +1,32 @@
+// variables
+$heading1: 3.3rem;
+$heading2: 3rem;
+$heading3: 2.7rem;
+$heading4: 2.2rem;
+$heading5: 2rem;
+$heading6: 1.8rem;
+$text: 1.6rem;
+$primary-color: #204051;
+$secondary-color: orangered;
+$special-color: #3b6978;
+
+// fonts
+@font-face{
+    font-family: 'Comfortaa';
+    src: url('/assets/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: 'Montserrat-medium';
+    src: url('/assets/fonts/Montserrat-Medium.ttf');
+}
+@font-face{
+    font-family: 'MuseoModerno';
+    src: url('/assets/fonts/MuseoModerno-VariableFont_wght.ttf');
+}
+
+// import
+@import "global";

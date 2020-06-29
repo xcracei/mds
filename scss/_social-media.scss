@@ -1,0 +1,15 @@
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 20rem;
+    a{
+        padding: 0.8rem 0.2rem;
+    }
+    img:hover {
+        border: 0.2rem solid orangered;
+    }
+}
